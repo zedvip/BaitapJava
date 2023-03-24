@@ -17,7 +17,16 @@ public class bai11 {
            System.out.printf("A[%d]=",i);
            arrA[i]=sc.nextInt();
        }
-       // Sap xep tang dan
+       System.out.print("mang bang dau la:");
+       for (int i= 0; i< arrA.length; i++) 
+       {   
+           System.out.printf("%d \t",arrA[i]);
+       }
+      
+       // In ket qua 
+           System.out.print("Mang sau khi sap xep : ");
+    
+       
        for(int i = 0; i<arrA.length-1;i++)
        {
            for(int j = i+1; j<arrA.length; j++)
@@ -30,12 +39,9 @@ public class bai11 {
                }
            }
        }
-       // In ket qua 
-           System.out.print("Mang sau khi sap xep : ");
        for (int i= 0; i< arrA.length; i++) 
        {   
            System.out.printf("%d \t",arrA[i]);
-       }
-   }
+   }}
    }
    
