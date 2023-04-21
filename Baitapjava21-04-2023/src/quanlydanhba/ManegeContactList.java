@@ -1,4 +1,4 @@
-package baithuchanh2104.quanlidanhba;
+package quanlydanhba;
 
 import java.util.Scanner;
 

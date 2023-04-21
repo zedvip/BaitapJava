@@ -1,4 +1,4 @@
-package baithuchanh2104.quanlidanhba;
+package quanlydanhba;
 public abstract class Contact {
     abstract void insertContact(String name, String phone_number);
     abstract void deleteContact(String name);
