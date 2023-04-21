@@ -2,11 +2,15 @@ import java.util.Scanner;
 
 public class Hinhtron {
    
-    
+    public String ten;
     public float bk ;
     final float Pi = 3.14f;
     public float chuvi;
     public float dientich;
+
+    public void Hinhtron(){
+       System.out.println("Hinh Tron");
+    }
     
     public void nhapbankinh()
      {
@@ -28,6 +32,7 @@ public class Hinhtron {
     }
     public void hienthithongtin()
     {
+        
         System.out.printf("chu vi hinh tron la: %f",tinhchuvi());
 
         System.out.printf("\n dien tich hinh tron la %f",tinhdientich());

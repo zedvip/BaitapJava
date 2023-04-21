@@ -2,6 +2,7 @@ public class App {
     public static void main(String[] args) {
         Hinhtron ht1 = new Hinhtron();
         
+        ht1.Hinhtron();
         ht1.nhapbankinh() ; 
         ht1.tinhchuvi();
         ht1.hienthithongtin();
